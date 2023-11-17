@@ -12,7 +12,7 @@ export function Formulario() {
               </div>
             </div>
             <div className="col-12 col-md-6">
-            <div class="mb-3">
+            <div className="mb-3">
                 <label className="form-label">
                   Telefono
                 </label>
@@ -24,19 +24,25 @@ export function Formulario() {
           <div className="col-12 col-md-6">
               <div className="mb-3">
                 <label className="form-label">
-                  FechaInicio
+                  Inicio
                 </label>
-                <input type="text" className="form-control"/>
+                <input type="date" className="form-control"/>
               </div>
             </div>
             <div className="col-12 col-md-6">
-            <div class="mb-3">
+            <div className="mb-3">
                 <label className="form-label">
-                  Fecha Final
+                  Final
                 </label>
-                <input type="text" className="form-control"/>
+                <input type="date" className="form-control"/>
               </div>
-            </div> 
+            </div>
+            <div className="mb-3">
+              <button type="button" className="btn btn-primary">
+                Reservar
+              </button>
+
+            </div>
           </div>
         </form>
       </>

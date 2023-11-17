@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+
 import "./Home.css";
 import { Formulario } from "../Formulario/Formulario";
 export function Home() {
@@ -12,7 +12,6 @@ export function Home() {
             <Formulario></Formulario>
           </div>
         </div>
-        
       </div>
     </>
   );
